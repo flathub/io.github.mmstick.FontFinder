@@ -10,7 +10,7 @@
   "build-options": {
     "append-path": "/usr/lib/sdk/rust-stable/bin"
   },
-  "command": "fontfinder",
+  "command": "fontfinder-gtk",
   "rename-icon": "typecatcher",
   "copy-icon": true,
   "finish-args": [
@@ -26,7 +26,7 @@
       "buildsystem": "simple",
       "build-commands": [
         "make",
-        "install -D target/release/fontfinder-gtk /app/bin/fontfinder",
+        "install -D target/release/fontfinder-gtk /app/bin/fontfinder-gtk",
         "install -Dm644 assets/fontfinder.desktop /app/share/applications/io.github.mmstick.FontFinder.desktop",
         "install -Dm644 io.github.mmstick.FontFinder.appdata.xml /app/share/metainfo/io.github.mmstick.FontFinder.appdata.xml",
         "install -Dm644 typecatcher.svg /app/share/icons/hicolor/scalable/apps/typecatcher.svg"
