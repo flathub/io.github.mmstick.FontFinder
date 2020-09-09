@@ -2,7 +2,7 @@
   "id": "io.github.mmstick.FontFinder",
   "branch": "stable",
   "runtime": "org.gnome.Platform",
-  "runtime-version": "3.28",
+  "runtime-version": "3.36",
   "sdk": "org.gnome.Sdk",
   "sdk-extensions": [
     "org.freedesktop.Sdk.Extension.rust-stable"
@@ -34,8 +34,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://github.com/mmstick/fontfinder/releases/download/1.4.0/fontfinder-vendored.tar.xz",
-          "sha256": "f5d5b5a4c63f564e11a8fbc584018e79fd7f71c812d48ef1d0de620bbc6bb1de"
+          "url": "https://github.com/mmstick/fontfinder/releases/download/2.0.0/fontfinder_2.0.0.tar.xz",
+          "sha256": "fb2c3a6bf2ccf82598d7c77476f85ae4a662e8c54e6f1142469b06a201b04b11"
         },
         {
           "type": "file",
