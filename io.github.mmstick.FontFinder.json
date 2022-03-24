@@ -2,7 +2,7 @@
   "id": "io.github.mmstick.FontFinder",
   "branch": "stable",
   "runtime": "org.gnome.Platform",
-  "runtime-version": "40",
+  "runtime-version": "42",
   "sdk": "org.gnome.Sdk",
   "sdk-extensions": [
     "org.freedesktop.Sdk.Extension.rust-stable"
