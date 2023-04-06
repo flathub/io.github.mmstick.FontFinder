@@ -1,8 +1,7 @@
 {
   "id": "io.github.mmstick.FontFinder",
-  "branch": "stable",
   "runtime": "org.gnome.Platform",
-  "runtime-version": "42",
+  "runtime-version": "44",
   "sdk": "org.gnome.Sdk",
   "sdk-extensions": [
     "org.freedesktop.Sdk.Extension.rust-stable"
@@ -16,7 +15,7 @@
   "finish-args": [
     "--share=ipc",
     "--share=network",
-    "--socket=x11",
+    "--socket=fallback-x11",
     "--socket=wayland",
     "--filesystem=xdg-data/fonts:create"
   ],
